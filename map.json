@@ -3,7 +3,7 @@
   "height": 30,
   "infinite": false,
   "nextlayerid": 5,
-  "nextobjectid": 39,
+  "nextobjectid": 67,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "backgroundcolor": "#e6e6e6",
@@ -408,6 +408,164 @@
             { "name": "openWebsite", "type": "string", "value": "https://example.com/metas" },
             { "name": "openWebsiteTrigger", "type": "string", "value": "onaction" }
           ]
+        },
+        {
+          "id": 39,
+          "name": "ReunioesRapidas",
+          "type": "area",
+          "x": 992,
+          "y": 608,
+          "width": 192,
+          "height": 128,
+          "visible": true,
+          "properties": [
+            { "name": "jitsiRoom", "type": "string", "value": "ReunioesRapidas" },
+            { "name": "jitsiWidth", "type": "int", "value": 900 },
+            { "name": "jitsiTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "LinkCRMVtiger",
+          "type": "area",
+          "x": 1008,
+          "y": 624,
+          "width": 160,
+          "height": 32,
+          "visible": true,
+          "properties": [
+            { "name": "openWebsite", "type": "string", "value": "https://www.vtiger.com/" },
+            { "name": "openWebsiteTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "LinkGitHub",
+          "type": "area",
+          "x": 80,
+          "y": 432,
+          "width": 96,
+          "height": 32,
+          "visible": true,
+          "properties": [
+            { "name": "openWebsite", "type": "string", "value": "https://github.com/" },
+            { "name": "openWebsiteTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "LinkBitbucket",
+          "type": "area",
+          "x": 200,
+          "y": 432,
+          "width": 112,
+          "height": 32,
+          "visible": true,
+          "properties": [
+            { "name": "openWebsite", "type": "string", "value": "https://bitbucket.org/" },
+            { "name": "openWebsiteTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 43,
+          "name": "LinkIntegracoes",
+          "type": "area",
+          "x": 80,
+          "y": 480,
+          "width": 120,
+          "height": 32,
+          "visible": true,
+          "properties": [
+            { "name": "openWebsite", "type": "string", "value": "https://example.com/integracoes" },
+            { "name": "openWebsiteTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "LinkMonitoramento",
+          "type": "area",
+          "x": 240,
+          "y": 480,
+          "width": 120,
+          "height": 32,
+          "visible": true,
+          "properties": [
+            { "name": "openWebsite", "type": "string", "value": "https://grafana.com/" },
+            { "name": "openWebsiteTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 45,
+          "name": "LinkZendesk",
+          "type": "area",
+          "x": 432,
+          "y": 432,
+          "width": 96,
+          "height": 32,
+          "visible": true,
+          "properties": [
+            { "name": "openWebsite", "type": "string", "value": "https://www.zendesk.com/" },
+            { "name": "openWebsiteTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "LinkClickUpSuporte",
+          "type": "area",
+          "x": 544,
+          "y": 432,
+          "width": 112,
+          "height": 32,
+          "visible": true,
+          "properties": [
+            { "name": "openWebsite", "type": "string", "value": "https://app.clickup.com/" },
+            { "name": "openWebsiteTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "AuditorioCentral",
+          "type": "area",
+          "x": 480,
+          "y": 608,
+          "width": 320,
+          "height": 160,
+          "visible": true,
+          "properties": [
+            { "name": "jitsiRoom", "type": "string", "value": "AuditorioCentral" },
+            { "name": "jitsiWidth", "type": "int", "value": 900 },
+            { "name": "jitsiTrigger", "type": "string", "value": "onaction" }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "Copa",
+          "type": "area",
+          "x": 64,
+          "y": 608,
+          "width": 192,
+          "height": 96,
+          "visible": true
+        },
+        {
+          "id": 49,
+          "name": "Lounge",
+          "type": "area",
+          "x": 288,
+          "y": 608,
+          "width": 160,
+          "height": 96,
+          "visible": true
+        },
+        {
+          "id": 50,
+          "name": "JardimVirtual",
+          "type": "area",
+          "x": 832,
+          "y": 608,
+          "width": 128,
+          "height": 96,
+          "visible": true
         }
       ]
     },
@@ -561,6 +719,182 @@
           "height": 20,
           "visible": true,
           "text": { "text": "Comercial", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 51,
+          "name": "ReunioesRapidasLabel",
+          "type": "label",
+          "x": 992,
+          "y": 592,
+          "width": 192,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Reuniões Rápidas", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 52,
+          "name": "CRMLabel",
+          "type": "label",
+          "x": 1008,
+          "y": 608,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "CRM (Vtiger)", "fontfamily": "Arial", "pixelsize": 14, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 53,
+          "name": "IntegracoesLabel",
+          "type": "label",
+          "x": 80,
+          "y": 464,
+          "width": 120,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Integrações", "fontfamily": "Arial", "pixelsize": 14, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 54,
+          "name": "MonitoramentoLabel",
+          "type": "label",
+          "x": 240,
+          "y": 464,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Monitoramento", "fontfamily": "Arial", "pixelsize": 14, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 55,
+          "name": "ReposLabel",
+          "type": "label",
+          "x": 80,
+          "y": 416,
+          "width": 240,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "GitHub / Bitbucket", "fontfamily": "Arial", "pixelsize": 14, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 56,
+          "name": "SLAsTicketsLabel",
+          "type": "label",
+          "x": 432,
+          "y": 416,
+          "width": 200,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "SLAs e Tickets", "fontfamily": "Arial", "pixelsize": 14, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 57,
+          "name": "AuditorioLabel",
+          "type": "label",
+          "x": 480,
+          "y": 592,
+          "width": 320,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Auditório Central", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 58,
+          "name": "CopaLabel",
+          "type": "label",
+          "x": 64,
+          "y": 592,
+          "width": 192,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Copa", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 59,
+          "name": "LoungeLabel",
+          "type": "label",
+          "x": 288,
+          "y": 592,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Lounge", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 60,
+          "name": "JardimLabel",
+          "type": "label",
+          "x": 832,
+          "y": 592,
+          "width": 128,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Jardim Virtual", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 61,
+          "name": "CorredorMarketingLabel",
+          "type": "label",
+          "x": 704,
+          "y": 384,
+          "width": 256,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Corredor Marketing", "fontfamily": "Arial", "pixelsize": 14, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 62,
+          "name": "CorredorDevsLabel",
+          "type": "label",
+          "x": 224,
+          "y": 384,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Corredor Devs", "fontfamily": "Arial", "pixelsize": 14, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 63,
+          "name": "CorredorSuporteLabel",
+          "type": "label",
+          "x": 512,
+          "y": 384,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Corredor Suporte", "fontfamily": "Arial", "pixelsize": 14, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 64,
+          "name": "PortaMilena",
+          "type": "label",
+          "x": 704,
+          "y": 208,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Porta Milena", "fontfamily": "Arial", "pixelsize": 12, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 65,
+          "name": "PortaCaroline",
+          "type": "label",
+          "x": 64,
+          "y": 224,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Porta Caroline", "fontfamily": "Arial", "pixelsize": 12, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 66,
+          "name": "PortaLou",
+          "type": "label",
+          "x": 992,
+          "y": 208,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Porta Lou", "fontfamily": "Arial", "pixelsize": 12, "wrap": true, "color": "#000000" }
         }
       ]
     }
