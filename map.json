@@ -2,8 +2,8 @@
   "compressionlevel": -1,
   "height": 30,
   "infinite": false,
-  "nextlayerid": 4,
-  "nextobjectid": 11,
+  "nextlayerid": 5,
+  "nextobjectid": 21,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "tiledversion": "1.10.2",
@@ -192,6 +192,126 @@
             { "name": "jitsiRoom", "type": "string", "value": "Marketing" },
             { "name": "jitsiWidth", "type": "int", "value": 900 }
           ]
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "labels",
+      "type": "objectgroup",
+      "visible": true,
+      "opacity": 1,
+      "objects": [
+        {
+          "id": 11,
+          "name": "Start",
+          "type": "label",
+          "x": 96,
+          "y": 80,
+          "width": 128,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Entrada", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 12,
+          "name": "WebsiteLabel",
+          "type": "label",
+          "x": 256,
+          "y": 48,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Website", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 13,
+          "name": "ReuniaoLabel",
+          "type": "label",
+          "x": 64,
+          "y": 208,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Reunião", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 14,
+          "name": "SilentLabel",
+          "type": "label",
+          "x": 320,
+          "y": 208,
+          "width": 160,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Silêncio", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 15,
+          "name": "SalaCEOLabel",
+          "type": "label",
+          "x": 992,
+          "y": 48,
+          "width": 192,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Sala CEO", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 16,
+          "name": "GestaoPessoasLabel",
+          "type": "label",
+          "x": 64,
+          "y": 224,
+          "width": 192,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Gestão & Pessoas", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 17,
+          "name": "FinanceiroJuridicoLabel",
+          "type": "label",
+          "x": 288,
+          "y": 224,
+          "width": 224,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Financeiro & Jurídico", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 18,
+          "name": "DevsLabel",
+          "type": "label",
+          "x": 64,
+          "y": 400,
+          "width": 320,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Devs", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 19,
+          "name": "SuporteLabel",
+          "type": "label",
+          "x": 416,
+          "y": 400,
+          "width": 256,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Suporte", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
+        },
+        {
+          "id": 20,
+          "name": "MarketingLabel",
+          "type": "label",
+          "x": 704,
+          "y": 400,
+          "width": 256,
+          "height": 20,
+          "visible": true,
+          "text": { "text": "Marketing", "fontfamily": "Arial", "pixelsize": 16, "wrap": true, "color": "#000000" }
         }
       ]
     }
