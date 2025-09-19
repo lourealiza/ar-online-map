@@ -1,0 +1,111 @@
+{
+  "compressionlevel": -1,
+  "height": 8,
+  "infinite": false,
+  "nextlayerid": 4,
+  "nextobjectid": 5,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.10.2",
+  "tileheight": 32,
+  "tilewidth": 32,
+  "type": "map",
+  "version": "1.10",
+  "width": 10,
+
+  "tilesets": [
+  ],
+
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "width": 10,
+      "height": 8,
+      "opacity": 1,
+      "visible": true,
+      "encoding": "csv",
+      "data": "0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0"
+    },
+
+    {
+      "id": 2,
+      "name": "collision",
+      "type": "tilelayer",
+      "width": 10,
+      "height": 8,
+      "opacity": 1,
+      "visible": true,
+      "encoding": "csv",
+      "properties": [
+        { "name": "collides", "type": "bool", "value": true }
+      ],
+      "data": "0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0"
+    },
+
+    {
+      "id": 3,
+      "name": "areas",
+      "type": "objectgroup",
+      "visible": true,
+      "opacity": 1,
+      "objects": [
+        {
+          "id": 1,
+          "name": "StartArea",
+          "type": "area",
+          "x": 96,
+          "y": 96,
+          "width": 64,
+          "height": 64,
+          "visible": true,
+          "properties": [
+            { "name": "start", "type": "string", "value": "entrada" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Website",
+          "type": "area",
+          "x": 256,
+          "y": 64,
+          "width": 96,
+          "height": 64,
+          "visible": true,
+          "properties": [
+            { "name": "openWebsite", "type": "string", "value": "https://ar-online.com.br/" },
+            { "name": "openWebsiteWidth", "type": "int", "value": 900 }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Reuniao",
+          "type": "area",
+          "x": 64,
+          "y": 224,
+          "width": 96,
+          "height": 64,
+          "visible": true,
+          "properties": [
+            { "name": "jitsiRoom", "type": "string", "value": "ReuniaoPrincipal" },
+            { "name": "jitsiWidth", "type": "int", "value": 900 }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SilentZone",
+          "type": "area",
+          "x": 320,
+          "y": 224,
+          "width": 64,
+          "height": 64,
+          "visible": true,
+          "properties": [
+            { "name": "silent", "type": "bool", "value": true }
+          ]
+        }
+      ]
+    }
+  ]
+}
