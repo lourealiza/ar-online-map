@@ -1,8 +1,10 @@
-Use esta pasta para guardar tilesets do Tiled (`.tsx`) e as imagens de tiles correspondentes.
+Use esta pasta para guardar tilesets do Tiled (`.tsx`) e os PNG dos tiles (`.png`).
 
-Sugestão:
-- `tilesets/tsx/` — arquivos `.tsx` (tilesets externos do Tiled)
-- `tilesets/images/` — imagens dos tiles (PNG)
+Estrutura simples:
+- `tilesets/*.tsx` — tilesets externos do Tiled
+- `tilesets/*.png` — imagens dos tiles
 
-Um exemplo de tileset (`example.tsx`) foi adicionado para referência. Atualize o caminho da imagem e as dimensões conforme seu projeto.
+Exemplo:
+- `example.tsx` referencia `example-tiles.png` no mesmo diretório.
+- Ajuste a imagem e dimensões conforme seu projeto.
 
