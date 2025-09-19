@@ -6,6 +6,7 @@
   "nextobjectid": 21,
   "orientation": "orthogonal",
   "renderorder": "right-down",
+  "backgroundcolor": "#e6e6e6",
   "tiledversion": "1.10.2",
   "tileheight": 32,
   "tilewidth": 32,
