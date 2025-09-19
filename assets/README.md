@@ -6,4 +6,3 @@ Estrutura sugerida para `assets/`:
 - `assets/fonts/` — fontes personalizadas
 
 Coloque aqui os arquivos finais usados no mapa/jogo. Subpastas já foram criadas com `.gitkeep` para versionamento.
-
