@@ -2,7 +2,7 @@ name: Deploy WorkAdventure Root to Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ Inovacao ]
   workflow_dispatch:
 
 permissions:
