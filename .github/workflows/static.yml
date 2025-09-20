@@ -33,11 +33,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact (docs only)
+      - name: Upload artifact (repository root)
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload only the GitHub Pages content under /docs
-          path: 'docs'
+          # Publish entire repository (includes /docs and root files)
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
